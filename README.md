@@ -1,32 +1,26 @@
-# Email Seguro Terra Online - Painel Admin
+# Terra Mail - Painel Admin
 
-Projeto simples de painel administrativo com login básico.
+Sistema simples de login para painel administrativo.
 
-## Como funciona
+## Credenciais
 
-- Tela de login onde o usuário deve digitar:
-  - Usuário: **admim**
-  - Senha: **Mm102030**
-- Se os dados estiverem corretos, o usuário é redirecionado para o painel admin.
-- No painel, você vê um menu simples e uma mensagem de boas-vindas.
+- Usuário: admim  
+- Senha: Mm102030
 
 ## Como usar
 
-1. Clone ou baixe este repositório.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Use as credenciais acima para acessar o painel.
+1. Abra `login.html` no navegador.
+2. Faça login com as credenciais acima.
+3. Você será redirecionado para o painel.
+4. No painel, você pode clicar em "Sair" para fazer logout.
 
-## Tecnologias usadas
+## Tecnologias
 
 - HTML
 - CSS
 - JavaScript
 
-## Importante
+## Observações
 
-Este projeto é um exemplo básico para fins de aprendizado.  
-Não utilize este sistema para proteger dados reais, pois não há backend nem segurança real.
-
----
-
-Desenvolvido por Wesley Gabri
+- Este projeto é um exemplo simples para aprendizado.
+- Não use este sistema para proteger informações reais, pois não possui backend nem segurança adequada.
