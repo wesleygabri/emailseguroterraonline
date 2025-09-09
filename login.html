@@ -11,10 +11,10 @@
   <form id="loginForm">
     <label for="usuario">Usuário:</label><br />
     <input type="text" id="usuario" name="usuario" required /><br /><br />
-    
+
     <label for="senha">Senha:</label><br />
     <input type="password" id="senha" name="senha" required /><br /><br />
-    
+
     <button type="submit">Entrar</button>
   </form>
 
@@ -25,13 +25,13 @@
       const senha = document.getElementById('senha').value;
 
       if (usuario === "admin" && senha === "123456") {
-        alert('Login efetuado com sucesso!');
-        // Redirecionar para a página principal, por exemplo:
+        alert("Login efetuado com sucesso!");
         window.location.href = 'index.html';
       } else {
-        alert('Usuário ou senha inválidos!');
+        alert("Usuário ou senha inválidos!");
       }
     });
   </script>
 </body>
 </html>
+
