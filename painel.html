@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Painel Admin</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Painel Admin - Terra Mail</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="painel-page">
+<body>
   <div class="sidebar">
     <h2>Terra Mail</h2>
-    <ul>
-      <li><a href="#">Dashboard</a></li>
-      <li><a href="#">Usuários</a></li>
-      <li><a href="#">Configurações</a></li>
-      <li><a href="index.html">Sair</a></li>
-    </ul>
+    <nav>
+      <a href="#">Dashboard</a><br />
+      <a href="#">Usuários</a><br />
+      <a href="#">Configurações</a><br />
+      <a href="#" id="logout">Sair</a>
+    </nav>
   </div>
-  <div class="main">
-    <div class="topbar">
-      <h2>Painel Admin</h2>
-    </div>
-    <div class="content">
-      <h1>Bem-vindo ao Painel</h1>
-      <p>Aqui você pode gerenciar seu site.</p>
-    </div>
+
+  <div class="main-content">
+    <h1>Bem-vindo ao Painel</h1>
+    <p>Aqui você pode gerenciar seu site.</p>
   </div>
+
+  <script>
+    // Verifica se está logado, se não, redireciona para login
+    if(localStorage.getItem('logado') !== 'true') {
+      window.location.href = 'login.html';
+    }
+
+    document.getElementById('logout').addEventListener('click', function(e) {
+      e.preventDefault();
+      localStorage.removeItem('logado');
+      window.location.href = 'login.html';
+    });
+  </script>
 </body>
 </html>
+
