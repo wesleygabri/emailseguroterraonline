@@ -1,21 +1,33 @@
-# Email Seguro Terra Online
+# Email Seguro Terra Online - Painel Admin
 
-Este é um projeto simples de um site estático criado com HTML, CSS e JavaScript. O site possui uma página inicial e uma página de login.
+Este é um projeto simples de painel administrativo com sistema de login básico feito em HTML, CSS e JavaScript.
 
 ## Funcionalidades
 
-- Página inicial com conteúdo básico.
-- Página de login simples (usuário: `admin`, senha: `123456`).
-- Layout responsivo e estilizado.
+- Tela de login com usuário e senha.
+- Usuário: `admim`
+- Senha: `Mm102030`
+- Ao fazer login corretamente, o usuário é redirecionado para o painel administrativo.
+- Tela de painel com navegação básica.
 
-## Como acessar
+## Como usar
 
-Você pode acessar o site pelo GitHub Pages no link:  
-https://wesleygabri.github.io/emailseguroterraonline/
+1. Faça o clone ou download do repositório.
+2. Abra o arquivo `index.html` no navegador.
+3. Insira o usuário e senha indicados acima para acessar o painel.
 
-## Como usar localmente
+## Tecnologias usadas
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/wesleygabri/emailseguroterraonline.git
+- HTML5
+- CSS3
+- JavaScript (puro)
 
+## Observações
+
+- Este projeto é para fins educativos e demonstração.
+- Não utilize este sistema em produção sem implementar uma autenticação segura no backend.
+
+---
+
+Desenvolvido por Wesley Gabri  
+[GitHub](https://github.com/wesleygabri)
