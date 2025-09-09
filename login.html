@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login - Meu Site</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -11,22 +11,20 @@
   <form id="loginForm">
     <label for="usuario">Usuário:</label><br />
     <input type="text" id="usuario" name="usuario" required /><br /><br />
-
     <label for="senha">Senha:</label><br />
     <input type="password" id="senha" name="senha" required /><br /><br />
-
     <button type="submit">Entrar</button>
   </form>
 
   <script>
-    document.getElementById('loginForm').addEventListener('submit', function(e) {
+    document.getElementById('loginForm').addEventListener('submit', function (e) {
       e.preventDefault();
       const usuario = document.getElementById('usuario').value;
       const senha = document.getElementById('senha').value;
 
       if (usuario === "admin" && senha === "123456") {
         alert("Login efetuado com sucesso!");
-        window.location.href = 'index.html';
+        window.location.href = "index.html";
       } else {
         alert("Usuário ou senha inválidos!");
       }
@@ -34,4 +32,3 @@
   </script>
 </body>
 </html>
-
