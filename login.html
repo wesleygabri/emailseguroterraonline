@@ -1,6 +1,17 @@
-if (usuario === "admin" && senha === "123456") {
-  alert("Login efetuado com sucesso!");
-  window.location.href = "painel.html"; // Redireciona para o painel
-} else {
-  alert("Usuário ou senha inválidos!");
-}
+<script>
+  document.getElementById('loginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const usuario = document.getElementById('usuario').value;
+    const senha = document.getElementById('senha').value;
+
+    if (usuario === "admin" && senha === "123456") {
+      alert("Login efetuado com sucesso!");
+      // salva login no localStorage
+      localStorage.setItem("logado", "true");
+      window.location.href = "painel.html";
+    } else {
+      alert("Usuário ou senha inválidos!");
+    }
+  });
+</script>
+
