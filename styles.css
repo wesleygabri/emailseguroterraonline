@@ -1,89 +1,65 @@
-/* Geral */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Página de login */
-.login-page {
-  background-color: #eee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .login-container {
-  background: white;
+  max-width: 300px;
+  margin: 100px auto;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.login-container h2 {
-  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .login-container input {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-.login-container button {
-  width: 100%;
-  padding: 10px;
-  background-color: orange;
-  border: none;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Painel Admin */
-.sidebar {
-  width: 220px;
-  background-color: orange;
-  height: 100vh;
-  float: left;
-  padding: 20px;
+  padding: 8px;
+  margin-top: 4px;
   box-sizing: border-box;
+}
+
+button {
+  background-color: #ff6600;
   color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #cc5200;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ff6600;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  float: left;
 }
 
 .sidebar h2 {
   margin-top: 0;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin: 20px 0;
-  font-weight: bold;
-}
-
-.sidebar ul li a {
+.sidebar nav a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin: 15px 0;
 }
 
-.main {
+.sidebar nav a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
   margin-left: 220px;
   padding: 20px;
-  background-color: #eee;
+  background-color: #f1f3f5;
   height: 100vh;
-  box-sizing: border-box;
-}
-
-.topbar {
-  background-color: orange;
-  padding: 10px 20px;
-  color: white;
-}
-
-.content {
-  margin-top: 20px;
 }
