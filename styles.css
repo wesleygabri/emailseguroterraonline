@@ -1,24 +1,89 @@
+/* Geral */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  background-color: #f0f0f0;
 }
 
-h1 {
-  color: #333;
+/* Página de login */
+.login-page {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-button {
-  background-color: #0066cc;
-  color: white;
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
   border: none;
-  padding: 15px 25px;
-  font-size: 16px;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
 }
 
-button:hover {
-  background-color: #004999;
+/* Painel Admin */
+.sidebar {
+  width: 220px;
+  background-color: orange;
+  height: 100vh;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+  background-color: #eee;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.topbar {
+  background-color: orange;
+  padding: 10px 20px;
+  color: white;
+}
+
+.content {
+  margin-top: 20px;
 }
