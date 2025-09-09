@@ -1,33 +1,32 @@
 # Email Seguro Terra Online - Painel Admin
 
-Este é um projeto simples de painel administrativo com sistema de login básico feito em HTML, CSS e JavaScript.
+Projeto simples de painel administrativo com login básico.
 
-## Funcionalidades
+## Como funciona
 
-- Tela de login com usuário e senha.
-- Usuário: `admim`
-- Senha: `Mm102030`
-- Ao fazer login corretamente, o usuário é redirecionado para o painel administrativo.
-- Tela de painel com navegação básica.
+- Tela de login onde o usuário deve digitar:
+  - Usuário: **admim**
+  - Senha: **Mm102030**
+- Se os dados estiverem corretos, o usuário é redirecionado para o painel admin.
+- No painel, você vê um menu simples e uma mensagem de boas-vindas.
 
 ## Como usar
 
-1. Faça o clone ou download do repositório.
-2. Abra o arquivo `index.html` no navegador.
-3. Insira o usuário e senha indicados acima para acessar o painel.
+1. Clone ou baixe este repositório.
+2. Abra o arquivo `index.html` no seu navegador.
+3. Use as credenciais acima para acessar o painel.
 
 ## Tecnologias usadas
 
-- HTML5
-- CSS3
-- JavaScript (puro)
+- HTML
+- CSS
+- JavaScript
 
-## Observações
+## Importante
 
-- Este projeto é para fins educativos e demonstração.
-- Não utilize este sistema em produção sem implementar uma autenticação segura no backend.
+Este projeto é um exemplo básico para fins de aprendizado.  
+Não utilize este sistema para proteger dados reais, pois não há backend nem segurança real.
 
 ---
 
-Desenvolvido por Wesley Gabri  
-[GitHub](https://github.com/wesleygabri)
+Desenvolvido por Wesley Gabri
